@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* border: 2px black solid; */
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(179, 162, 131);
+  }
+  
+  header img {
+    height: 50px;
+  }
+  
+  header ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  header li {
+   
+    font-size: 30px;
+    margin-right:80px;
+    font-family: 'Gaegu', cursive;
+
+    ;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: #eeeeee;
+  }
+  
+  header svg {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .hero {
+    background-color: papayawhip;
+    display: flex;
+    align-items: space-beween;
+    height: 80vh;
+  }
+  
+  .hero .text {
+    min-width: 50%;
+    padding: 10%;
+  }
+  
+  .hero h1 {
+    font-family: "Poppins";
+    text-transform: uppercase;
+    font-size: 52px;
+    font-weight: bold;
+    color: rgb(216, 196, 158);
+    margin-bottom: 20px;
+    font-family: 'Gaegu', cursive;
+  }
+  
+  .hero p {
+    font-family: "Poppins";
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgb(158, 140, 107);
+    margin-bottom: 20px;
+  }
+  
+  .hero button {
+    justify-self: center;
+    padding: 4%;
+    font-family: "Poppins";
+    text-transform: uppercase;
+    background-color:  rgb(216, 196, 158)33;
+    color: #000000;
+    font-weight: 700;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    border: 5px solid burlywood
+  }
+  
+  .hero button:hover {
+    color:  rgb(204, 149, 48)3;
+    background-color: #d3c199;
+    border: 2px solid  rgb(184, 128, 26)033;
+  }
+  
+  .hero .picture {
+    min-width: 50%;
+  }
+  
+  .picture img {
+    height: 100%;
+    padding: 10%;
+  }
+
+.products {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #eeeeee;
+    font-family: 'Gaegu', cursive;
+    font-size: 50px;
+  }
+
+.products h3{
+font-size: 100px;
+display: flex;
+justify-content: space-around;
+
+}
+
+.products h2{
+  font-size: 50px;
+  display: flex;
+  justify-content: space-around;
+  
+  }
+
+  .child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+  }
+
+.machine{
+  height: 350px;
+}
+ 
+.products p{
+  font-size: 30px;
+}
+  
+  footer {
+    background-color: rgb(216, 196, 158);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  footer p {
+    color: #eeeeee;
+    font-size: 16px;
+    font-family: "";
+  }
+  
+  .products image{
+    display:flex;
+    flex-direction:column;
+    align-items:column;
+  }
